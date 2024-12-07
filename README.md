@@ -1,4 +1,4 @@
-# TicTacYoe
+## **TicTacYoe**
  Mobile Responsive Tic Tac Game using JavaScript By Pragyandeep Mohanty
 
 <h3>Sample Browser Screenshots</h3>
