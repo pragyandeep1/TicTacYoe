@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Yoe</title>
+    <link rel="icon" href="tree.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title-container">
+        <h1 class="page-title">Tic Tac Yoe</h1>
+    </div>
+    <div class="overlay-text visible">
+        Click to Begin
+    </div>
+    <div id="victory-text" class="winner">
+        <span class="overlay-text-small"></span>
+    </div>
+    <div class="container">
+        <div class="game-container">
+            <div id="cell0" class="cell" onclick="cellClicked(0)"></div>
+            <div id="cell1" class="cell" onclick="cellClicked(1)"></div>
+            <div id="cell2" class="cell" onclick="cellClicked(2)"></div>
+            <div id="cell3" class="cell" onclick="cellClicked(3)"></div>
+            <div id="cell4" class="cell" onclick="cellClicked(4)"></div>
+            <div id="cell5" class="cell" onclick="cellClicked(5)"></div>
+            <div id="cell6" class="cell" onclick="cellClicked(6)"></div>
+            <div id="cell7" class="cell" onclick="cellClicked(7)"></div>
+            <div id="cell8" class="cell" onclick="cellClicked(8)"></div>
+        </div>
+    </div>
+    <br><br>
+    <button id="btn" onclick="Restart()">Play Again</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
